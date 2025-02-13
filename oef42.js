@@ -3,7 +3,7 @@
  * met behulp van een callback.
  */
 
-function doubleNumber(num, callback) {
+const doubleNumber = (num, callback) => {
   const doubled = num * 2;
   callback(doubled)
 }

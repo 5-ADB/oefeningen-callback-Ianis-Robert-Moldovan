@@ -12,4 +12,4 @@ const processArray = (arr, callback) => {
 }
 
 // Verwacht resultaat: [2, 4, 6, 8, 10]
-console.log(processArray([1, 2, 3, 4, 5], num => num * 2));
+console.log(processArray([1, 2, 3, 4, 5], (num) => num * 2));

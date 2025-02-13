@@ -3,7 +3,7 @@
  * en een callback uitvoert die de naam gebruikt.
  */
 
-function greet(name, callback) {
+const greet = (name, callback) => {
   const bericht = `Hallo, ${name}!`
   callback(bericht)
 }

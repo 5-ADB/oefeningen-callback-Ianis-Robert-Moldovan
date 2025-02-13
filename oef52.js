@@ -4,7 +4,7 @@
  * Als resultaat telt hij alle nummer op van de array 
  */
 
-function telOp(lijst, callback) {
+let telOp = (lijst, callback) => {
   let som = 0
   for(let i = 0; i < lijst.length; i++) {
     som += lijst[i]

@@ -6,12 +6,10 @@
  * ( string omzetten naar hoofdletters: string.toUpperCase() )
  */
 
-function doIets(text, callback) {
+const doIets = (text, callback) => {
   const hoofdText = text.toUpperCase();
   callback(hoofdText);
 }
 
 // Verwacht resultaat: "HALLO WERELD"
-doIets("Hallo wereld", function (resultaat) {
-  console.log(resultaat);
-});
+doIets("Hallo wereld", resultaat => console.log(resultaat))
